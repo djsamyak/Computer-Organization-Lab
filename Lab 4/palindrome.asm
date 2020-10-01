@@ -3,12 +3,12 @@
 .DATA 
 
 ; The string to be printed 
-STRING DB '124321', '$'
+STRING DB 'acba', '$'
 STRING1 DB 'Sequence is palindrome', '$'
 STRING2 DB 'Sequence is not palindrome', '$'
 
 .CODE 
-MAIN PROC FAR 
+
 MOV AX, @DATA 
 MOV DS, AX 
 
